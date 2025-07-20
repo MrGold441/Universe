@@ -24,8 +24,6 @@ const {check_admin} = require('./middlewares/check_type')
 const app = express();
 const port = 5000;
 
-// mongodb+srv://iib2022038:acKZwVv2fnUYcNDT@cluster0.0ouumue.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-
 // MAKING CONNNECTION WITH DATABASE
 // .connect("mongodb://127.0.0.1:27017/UniVerse")
 mongoose
